@@ -33,45 +33,46 @@ namespace test01
                 case "/": { label3.Text = (Convert.ToInt32(txt1.Text.Trim()) / Convert.ToInt32(txt2.Text.Trim())).ToString(); break; }
                    
             }
-            //string suanfa = Convert.ToString(txtsuanfa.Text.Trim());
-            //if (txt1.Text.Trim() == null)
-            //{
-            //    MessageBox.Show("第一个数没输入");
-            //    return;
-            //}
-            //if (txt2.Text.Trim() == null)
-            //{
-            //    MessageBox.Show("第二个数都不输!");
-            //    return;
-            //}
-            //if (txt2.Text.Trim() == null)
-            //{
-            //    MessageBox.Show("为什么不输入运算符！");
-            //    return;
-            //}
-
-            //if (suanfa == "+")
-            //{
-            //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) + Convert.ToInt32(txt2.Text.Trim()));
-            //}
-            //else if (suanfa == "-")
-            //{
-            //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) - Convert.ToInt32(txt2.Text.Trim()));
-            //}
-            //else if (suanfa == "*")
-            //{
-            //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) * Convert.ToInt32(txt2.Text.Trim()));
-            //}
-            //else if (suanfa == "/")
-            //{
-            //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) / +Convert.ToInt32(txt2.Text.Trim()));
-            //}
-            //else
-            //{
-            //    MessageBox.Show("输入的运算符有错！！");
-            //    return;
-            //}
         }
+        //string suanfa = Convert.ToString(txtsuanfa.Text.Trim());
+        //if (txt1.Text.Trim() == null)
+        //{
+        //    MessageBox.Show("第一个数没输入");
+        //    return;
+        //}
+        //if (txt2.Text.Trim() == null)
+        //{
+        //    MessageBox.Show("第二个数都不输!");
+        //    return;
+        //}
+        //if (txt2.Text.Trim() == null)
+        //{
+        //    MessageBox.Show("为什么不输入运算符！");
+        //    return;
+        //}
+
+        //if (suanfa == "+")
+        //{
+        //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) + Convert.ToInt32(txt2.Text.Trim()));
+        //}
+        //else if (suanfa == "-")
+        //{
+        //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) - Convert.ToInt32(txt2.Text.Trim()));
+        //}
+        //else if (suanfa == "*")
+        //{
+        //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) * Convert.ToInt32(txt2.Text.Trim()));
+        //}
+        //else if (suanfa == "/")
+        //{
+        //    label3.Text = Convert.ToString(Convert.ToInt32(txt1.Text.Trim()) / +Convert.ToInt32(txt2.Text.Trim()));
+        //}
+        //else
+        //{
+        //    MessageBox.Show("输入的运算符有错！！");
+        //    return;
+        //}
+
 
         private bool yanzheng()
         {
