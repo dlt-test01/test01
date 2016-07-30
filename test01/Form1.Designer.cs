@@ -30,12 +30,13 @@ namespace test01
         {
             this.lblboom = new Gizmox.WebGUI.Forms.Label();
             this.button1 = new Gizmox.WebGUI.Forms.Button();
+            this.label1 = new Gizmox.WebGUI.Forms.Label();
             this.SuspendLayout();
             // 
             // lblboom
             // 
             this.lblboom.AutoSize = true;
-            this.lblboom.Location = new System.Drawing.Point(616, 132);
+            this.lblboom.Location = new System.Drawing.Point(288, 65);
             this.lblboom.Name = "lblboom";
             this.lblboom.Size = new System.Drawing.Size(35, 13);
             this.lblboom.TabIndex = 0;
@@ -43,19 +44,29 @@ namespace test01
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(440, 127);
+            this.button1.Location = new System.Drawing.Point(112, 60);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "点击";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(119, 122);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "说不定看的见";
+            // 
             // Form1
             // 
             this.BackColor = System.Drawing.Color.Wheat;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblboom);
-            this.Size = new System.Drawing.Size(1077, 504);
+            this.Size = new System.Drawing.Size(477, 230);
             this.Text = "Form1";
             this.ResumeLayout(false);
 
@@ -65,5 +76,6 @@ namespace test01
 
         private Gizmox.WebGUI.Forms.Label lblboom;
         private Gizmox.WebGUI.Forms.Button button1;
+        private Gizmox.WebGUI.Forms.Label label1;
     }
 }
