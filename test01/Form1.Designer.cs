@@ -36,7 +36,7 @@ namespace test01
             // lblboom
             // 
             this.lblboom.AutoSize = true;
-            this.lblboom.Location = new System.Drawing.Point(288, 65);
+            this.lblboom.Location = new System.Drawing.Point(251, 70);
             this.lblboom.Name = "lblboom";
             this.lblboom.Size = new System.Drawing.Size(35, 13);
             this.lblboom.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace test01
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 122);
+            this.label1.Location = new System.Drawing.Point(108, 128);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;

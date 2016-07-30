@@ -61,7 +61,7 @@ namespace test01
             // 
             // btnnum
             // 
-            this.btnnum.Location = new System.Drawing.Point(70, 185);
+            this.btnnum.Location = new System.Drawing.Point(72, 167);
             this.btnnum.Name = "btnnum";
             this.btnnum.Size = new System.Drawing.Size(75, 23);
             this.btnnum.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace test01
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(202, 190);
+            this.label3.Location = new System.Drawing.Point(204, 172);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 5;
