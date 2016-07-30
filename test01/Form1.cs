@@ -21,6 +21,7 @@ namespace test01
             InitializeComponent();
 
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             lblboom.Text = "boom sa ka la ka dd ";

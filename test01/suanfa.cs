@@ -35,6 +35,7 @@ namespace test01
             }
         }
 
+
         //string suanfa = Convert.ToString(txtsuanfa.Text.Trim());
         //if (txt1.Text.Trim() == null)
         //{
